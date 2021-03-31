@@ -1,0 +1,17 @@
+[
+  {
+    "overviewIconName": "eye",
+    "overviewTitle": "UI DEVELOPER",
+    "overviewDesc": "Capable of following mockups, ensuring mobile responsiveness across all devices, and improving accessibility for the everyday user."
+  },
+  {
+    "overviewIconName": "book-reader",
+    "overviewTitle": "SELF LEARNER",
+    "overviewDesc": "Actively learning new skills through YouTube and Udemy. In addition, I make personal projects to stay sharp and reinforce concepts."
+  },
+  {
+    "overviewIconName": "database",
+    "overviewTitle": "BACKEND ENGINEER",
+    "overviewDesc": "Experience working with databases, stored procedures, data models, controllers, and Enterprise Microservices in MVC patterns."
+  }
+]

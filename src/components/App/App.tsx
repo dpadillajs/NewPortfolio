@@ -3,7 +3,8 @@ import './App.css';
 import Navbar from '../Navbar/Navbar';
 import AboutMe from '../AboutMe/AboutMe';
 import { Spacer } from '../../containers/Spacer/Spacer';
-import Divider from "../Divider/Divider";
+import SkillSet from "../SkillSet/SkillSet";
+import Overview from "../Overview/Overview";
 
 const App : React.FC = () => {
   return (
@@ -12,7 +13,9 @@ const App : React.FC = () => {
       {/*Spacer*/}<Spacer divHeight={30}/>
       <AboutMe/>
       {/*Spacer*/}<Spacer divHeight={30}/>
-      <Divider/>
+      <SkillSet/>
+      {/*Spacer*/}<Spacer divHeight={50}/>
+      <Overview/>
     </div>
   );
 }

@@ -1,12 +1,12 @@
 import React from 'react';
-import './HeaderTitle.css';
 
 interface Props {
     titleOne: string,
-    titleTwo: string
+    titleTwo: string,
+    colorTwo?: string
 }
 
-export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo }) => {
+export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo, colorTwo }) => {
     const styles = () => {
         return ({
             divStyle: {
@@ -14,12 +14,11 @@ export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo }) => {
             },
             spanStyle: {
                 one: {
-                    position: 'relative' as 'relative',
                     fontSize: 35,
                     fontWeight: 'lighter' as 'lighter'
                 },
                 two: {
-                    color: '#a41d30',
+                    color: colorTwo ?? '#a41d30',
                     fontWeight: 900
                 }
             }
@@ -30,8 +29,7 @@ export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo }) => {
         <div style={styles().divStyle}>
             <span className="spanStyle" style={styles().spanStyle.one}>
                 <span>{titleOne}</span>
-                &nbsp;
-                <span style={styles().spanStyle.two}>{titleTwo}</span>
+                <span style={styles().spanStyle.two}>{titleTwo}( )</span>
             </span>
         </div>
     );

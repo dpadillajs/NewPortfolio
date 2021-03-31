@@ -1,54 +1,57 @@
 import React from 'react';
-import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
+import { OverridableComponent } from "@material-ui/core/OverridableComponent";
+import { SvgIconTypeMap } from "@material-ui/core";
+import { makeStyles, createStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
+import Tooltip from '@material-ui/core/Tooltip';
 import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import DescriptionIcon from '@material-ui/icons/Description';
+import PhoneEnabledIcon from '@material-ui/icons/PhoneEnabled';
+import EmailIcon from '@material-ui/icons/Email';
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles(() =>
     createStyles({
-        grow: {
-            flexGrow: 1,
-        },
-        appBarHeader: {
+        navbar: {
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            background: 'linear-gradient(to right, #4f0e17, #a41d30)'
-        },
-        socialMediaLinks: {
-            color: 'unset'
+            background: 'linear-gradient(to right, #4f0e17, #a41d30)',
+            display: 'flex',
+            flexDirection: 'row',
+            width: '-webkit-fill-available',
+            justifyContent: 'space-evenly'
         }
     }),
 );
 
 export default function Navbar() {
     const classes = useStyles();
-    const GitHubLink = "https://www.linkedin.com/in/davidmpadilla/";
-    const LinkedInLink = "https://github.com/dpadillajs";
+    const GitHubHref = "https://www.linkedin.com/in/davidmpadilla/";
+    const LinkedInHref = "https://github.com/dpadillajs";
+    const ResumeHref = "../../assets/pdf/DP_FullStackResume.pdf";
+    const PhoneHref = "tel:919-869-9647";
+    const EmailHref = "mailto:davidpadilla.dev@gmail.com?subject=Talent Acquisition"
+
+    const addLink = (type: string, hrefLink: string, attribute: boolean, customTag: OverridableComponent<SvgIconTypeMap>) => {
+        return (
+            <Link href={hrefLink} color="inherit" target="_blank" download={attribute}>
+                <Tooltip title={type} arrow>
+                    <IconButton aria-label={type + " Navbar Menu Button"} color="inherit">
+                        {React.createElement(customTag)}
+                    </IconButton>
+                </Tooltip>
+            </Link>
+        );
+    };
 
     return (
-        <div className={classes.grow}>
-            <AppBar position="static" className={classes.appBarHeader}>
-                <Toolbar>
-                    <Typography variant="h6" noWrap>
-                        David Padilla = {"{ "}Full Stack Developer{" }"}
-                    </Typography>
-                    <div className={classes.grow} />
-                    <div>
-                        <a href={GitHubLink} rel="noreferrer" target="_blank" className={classes.socialMediaLinks}>
-                            <IconButton aria-label="GitHub Navbar Menu Button" color="inherit">
-                                <GitHubIcon />
-                            </IconButton>
-                        </a>
-                        <a href={LinkedInLink} rel="noreferrer" target="_blank" className={classes.socialMediaLinks}>
-                            <IconButton aria-label="LinkedIn Navbar Menu Button" color="inherit">
-                                <LinkedInIcon />
-                            </IconButton>
-                        </a>
-                    </div>
-                </Toolbar>
-            </AppBar>
-        </div>
+        <AppBar position="static" className={classes.navbar}>
+            {addLink("Email", EmailHref, false, EmailIcon)}
+            {addLink("Phone", PhoneHref, false, PhoneEnabledIcon)}
+            {addLink("Resume", ResumeHref, true, DescriptionIcon)}
+            {addLink("GitHub", GitHubHref, false, GitHubIcon)}
+            {addLink("LinkedIn", LinkedInHref, false, LinkedInIcon)}
+        </AppBar>
     );
 }

@@ -35,7 +35,7 @@ export default function CenteredGrid() {
                 <div className={classes.root}>
                     <Grid container spacing={3}>
                         <Grid item xs={12}>
-                            <HeaderTitle titleOne="ABOUT" titleTwo="ME"/>
+                            <HeaderTitle titleOne="about" titleTwo="Me"/>
                         </Grid>
                         <Container maxWidth="md">
                             <Grid item xs={4} className={classes.photoDiv}>

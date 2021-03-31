@@ -1,9 +1,0 @@
-.spanStyle::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    left: 0;
-    height: 5px;
-    background: linear-gradient(130deg,#a41d30,#ed1a35 41.07%,#f6919e 76.05%);
-}
