@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme: Theme) =>
     }),
 );
 
-export default function CenteredGrid() {
+export default function AboutMe() {
     const classes = useStyles();
 
     return (
