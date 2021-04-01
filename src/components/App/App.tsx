@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import { Spacer } from '../../containers/Spacer/Spacer';
 import Navbar from '../Navbar/Navbar';
 import AboutMe from '../AboutMe/AboutMe';
-import { Spacer } from '../../containers/Spacer/Spacer';
-import SkillSet from "../SkillSet/SkillSet";
+import TechnicalSkillSet from "../TechnicalSkillSet/TechnicalSkillSet";
 import Overview from "../Overview/Overview";
+import WorkHistory from "../WorkHistory/WorkHistory";
 
 const App : React.FC = () => {
   return (
@@ -13,9 +14,12 @@ const App : React.FC = () => {
       {/*Spacer*/}<Spacer divHeight={30}/>
       <AboutMe/>
       {/*Spacer*/}<Spacer divHeight={30}/>
-      <SkillSet/>
-      {/*Spacer*/}<Spacer divHeight={50}/>
+      <TechnicalSkillSet/>
+      {/*Spacer*/}<Spacer divHeight={30}/>
       <Overview/>
+      {/*Spacer*/}<Spacer divHeight={30}/>
+      <WorkHistory/>
+      {/*Spacer*/}<Spacer divHeight={30}/>
     </div>
   );
 }

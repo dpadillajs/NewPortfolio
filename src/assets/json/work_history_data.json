@@ -1,0 +1,26 @@
+[
+  {
+    "yearEmployed": "2017",
+    "companyName": "Fidelity Investments",
+    "iconName": "piggy-bank",
+    "color": "#568200",
+    "jobTitle": "Financial Associate I - Health & Welfare",
+    "jobSummary": "Educated IBM employees about their health insurance among other benefits in a call center."
+  },
+  {
+    "yearEmployed": "2018",
+    "companyName": "UNC Coding Bootcamp",
+    "iconName": "university",
+    "color": "#4d9cd3",
+    "jobTitle": "Full Stack Web Developer",
+    "jobSummary": "Learned in-demand skills to create full stack applications and collaborated with others."
+  },
+  {
+    "yearEmployed": "2019",
+    "companyName": "TrialCard",
+    "iconName": "prescription",
+    "color": "#03649d",
+    "jobTitle": "Junior Developer",
+    "jobSummary": "Developed solutions in the Pharmaceutical IT Industry to help clients manage their patients."
+  }
+]

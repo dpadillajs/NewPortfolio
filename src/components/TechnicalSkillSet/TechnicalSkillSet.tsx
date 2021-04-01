@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme: Theme) =>
     }),
 );
 
-export default function SkillSet() {
+export default function TechnicalSkillSet() {
     const classes = useStyles();
 
     const importAll = (img: __WebpackModuleApi.RequireContext) => {
