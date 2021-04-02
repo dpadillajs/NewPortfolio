@@ -17,8 +17,5 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function AboutMePhoto() {
     const classes = useStyles();
-
-    return (
-        <Avatar alt="David Padilla" src={Photo} className={classes.avatar} />
-    );
+    return <Avatar alt="David Padilla" src={Photo} className={classes.avatar} />
 }

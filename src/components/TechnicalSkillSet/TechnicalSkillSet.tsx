@@ -26,14 +26,8 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function TechnicalSkillSet() {
     const classes = useStyles();
-
-    const importAll = (img: __WebpackModuleApi.RequireContext) => {
-        return img.keys().map(img);
-    }
-
-    const images = importAll(
-        require.context('../../assets/images/skills', false, /\.(png|jpe?g|svg)$/)
-    );
+    const importAll = (img: __WebpackModuleApi.RequireContext) => img.keys().map(img);
+    const images = importAll(require.context('../../assets/images/skills', false, /\.(png|jpe?g|svg)$/));
 
     return (
         <React.Fragment>
@@ -41,16 +35,14 @@ export default function TechnicalSkillSet() {
                 <HeaderTitle titleOne='technical' titleTwo='SkillSet' colorTwo="white"/>
                 <Spacer divHeight={30}/>
                 <Grid container className={classes.grid}>
-                {images.map((img: any, i) => {
-                    return (
-                        <Avatar
-                            alt="Programming Language Picture"
-                            key={i}
-                            src={img.default}
-                            className={classes.avatar}
-                        />
-                    );
-                })}
+                {images.map((img: any, i) =>
+                    <Avatar
+                        alt="Programming Language Picture"
+                        key={i}
+                        src={img.default}
+                        className={classes.avatar}
+                    />
+                )}
                 </Grid>
             </Container>
         </React.Fragment>

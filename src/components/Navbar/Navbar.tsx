@@ -33,17 +33,14 @@ export default function Navbar() {
     const PhoneHref = "tel:919-869-9647";
     const EmailHref = "mailto:davidpadilla.dev@gmail.com?subject=Talent Acquisition"
 
-    const addLink = (type: string, hrefLink: string, attribute: boolean, customTag: OverridableComponent<SvgIconTypeMap>) => {
-        return (
-            <Link href={hrefLink} color="inherit" target="_blank" download={attribute}>
-                <Tooltip title={type} arrow>
-                    <IconButton aria-label={type + " Navbar Menu Button"} color="inherit">
-                        {React.createElement(customTag)}
-                    </IconButton>
-                </Tooltip>
-            </Link>
-        );
-    };
+    const addLink = (type: string, hrefLink: string, attribute: boolean, customTag: OverridableComponent<SvgIconTypeMap>) =>
+        <Link href={hrefLink} color="inherit" target="_blank" download={attribute}>
+            <Tooltip title={type} arrow>
+                <IconButton aria-label={type + " Navbar Menu Button"} color="inherit">
+                    {React.createElement(customTag)}
+                </IconButton>
+            </Tooltip>
+        </Link>
 
     return (
         <AppBar position="static" className={classes.navbar}>

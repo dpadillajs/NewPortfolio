@@ -6,6 +6,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import TechnicalSkillSet from "../TechnicalSkillSet/TechnicalSkillSet";
 import Overview from "../Overview/Overview";
 import WorkHistory from "../WorkHistory/WorkHistory";
+import ProjectHighlights from "../ProjectHighlights/ProjectHighlights";
 
 const App : React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App : React.FC = () => {
       {/*Spacer*/}<Spacer divHeight={30}/>
       <WorkHistory/>
       {/*Spacer*/}<Spacer divHeight={30}/>
+      <ProjectHighlights/>
     </div>
   );
 }

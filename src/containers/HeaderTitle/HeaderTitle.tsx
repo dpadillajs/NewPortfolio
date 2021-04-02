@@ -7,23 +7,21 @@ interface Props {
 }
 
 export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo, colorTwo }) => {
-    const styles = () => {
-        return ({
-            divStyle: {
-                textAlign: 'center' as 'center'
+    const styles = () => ({
+        divStyle: {
+            textAlign: 'center' as 'center'
+        },
+        spanStyle: {
+            one: {
+                fontSize: 35,
+                fontWeight: 'lighter' as 'lighter'
             },
-            spanStyle: {
-                one: {
-                    fontSize: 35,
-                    fontWeight: 'lighter' as 'lighter'
-                },
-                two: {
-                    color: colorTwo ?? '#a41d30',
-                    fontWeight: 900
-                }
+            two: {
+                color: colorTwo ?? '#a41d30',
+                fontWeight: 900
             }
-        })
-    }
+        }
+    })
 
     return (
         <div style={styles().divStyle}>
