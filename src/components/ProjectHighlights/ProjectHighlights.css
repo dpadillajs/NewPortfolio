@@ -1,54 +1,54 @@
-.proj-accordion-summary {
-    background: dimgrey!important;
+.proj-card {
+    position: relative;
+    border: solid #801726 6px;
+    border-radius: initial!important;
+    background: #801726!important;
+    outline: solid rgba(164,29,48, .2) 8px;
 }
 
-.MuiAccordionSummary-content {
-    align-items: center;
+.proj-card:hover .proj-card-media  {
+    z-index: -1;
+    transition-delay: 1s;
 }
 
-.proj-title {
+.proj-card-media {
+    position: relative;
+    z-index: 1;
+}
+
+.proj-card-media:hover {
+    -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+    animation: 1s ease 0s normal forwards 1 fadein;
+}
+
+.proj-card-desc {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
     color: white;
-    font-size: 22px!important;
+    text-align: center;
     font-weight: bold!important;
-    flex-basis: 33.33%;
-    flex-shrink: 0;
+    padding: 5px!important;
 }
 
-.proj-details-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0!important;
+.proj-card-avatars {
+    position: absolute;
+    z-index: 0;
+    justify-content: center;
+    bottom: 2%;
+    left: 0;
+    right: 0;
 }
 
-.proj-icons-grid {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-evenly;
-    padding: 20px;
- }
-
-.proj-icons {
-    font-size: 30px;
-    color: #a41d30!important;
+@keyframes fadein{
+    100% { opacity:0; }
+    66% { opacity:0; }
+    0% { opacity:1; }
 }
 
-.proj-desc-grid {
-    display: flex;
-    align-items: center;
-    background: #a41d30!important;
-    color: white;
-    padding: 20px;
+@-webkit-keyframes fadein{
+    100% { opacity:0; }
+    66% { opacity:0; }
+    0% { opacity:1; }
 }
-
-.proj-image-card {
-    border-radius: 0!important;
-}
- .proj-desc {
-     font-weight: bold!important;
- }
-
- .proj-image-grid {
-     padding: 0!important;
- }

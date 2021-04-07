@@ -17,6 +17,7 @@ const useStyles = makeStyles(() =>
         navbar: {
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             background: 'linear-gradient(to right, #4f0e17, #a41d30)',
+            position: 'fixed',
             display: 'flex',
             flexDirection: 'row',
             width: '-webkit-fill-available',

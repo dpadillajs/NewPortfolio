@@ -1,41 +1,164 @@
 [
   {
     "projectTitle": "Cyberpunk Hangman",
-    "projectDesc": "A cyberpunk themed hangman game that takes in user input, keeps track of guesses, and notifies the user of their wins/losses.",
+    "projectDesc": "A hangman game that takes in user input, keeps track of guesses, and notifies the user of their wins/losses.",
     "projectSkills": [
       "HTML5",
       "CSS3",
       "JavaScript"
     ],
     "projectImg": "CyberpunkHangman",
-    "projectUrl": "https://pokematch-app.herokuapp.com/",
-    "projectGitHub": "https://github.com/dpadillajs/PokeMatch",
-    "projectDoc": "CyberpunkHangman"
+    "projectUrl": "https://www.davidpadilla.io/CyberpunkHangman/"
   },
   {
-    "projectTitle": "Cyberpunk Hangman",
-    "projectDesc": "A cyberpunk themed hangman game that takes in user input, keeps track of guesses, and notifies the user of their wins/losses.",
+    "projectTitle": "Villianous",
+    "projectDesc": "A memory-based puzzle shuffler where users must not press the same picture more than once or risk their score being reset.",
     "projectSkills": [
       "HTML5",
       "CSS3",
-      "JavaScript"
+      "JavaScript",
+      "React",
+      "MaterialUI"
     ],
-    "projectImg": "CyberpunkHangman",
-    "projectUrl": "https://pokematch-app.herokuapp.com/",
-    "projectGitHub": "https://github.com/dpadillajs/PokeMatch",
-    "projectDoc": "CyberpunkHangman"
+    "projectImg": "Villianous",
+    "projectUrl": "https://www.davidpadilla.io/Villianous/"
   },
   {
-    "projectTitle": "Cyberpunk Hangman",
-    "projectDesc": "A cyberpunk themed hangman game that takes in user input, keeps track of guesses, and notifies the user of their wins/losses.",
+    "projectTitle": "Recipedia",
+    "projectDesc": "Recipedia aims to make the process of finding recipes, planning meals, and grocery shopping lists easier.",
     "projectSkills": [
       "HTML5",
       "CSS3",
-      "JavaScript"
+      "JavaScript",
+      "React",
+      "MaterialUI",
+      "NodeJS",
+      "MongoDB",
+      "Firebase"
     ],
-    "projectImg": "CyberpunkHangman",
-    "projectUrl": "https://pokematch-app.herokuapp.com/",
-    "projectGitHub": "https://github.com/dpadillajs/PokeMatch",
-    "projectDoc": "CyberpunkHangman"
+    "projectImg": "Recipedia",
+    "projectUrl": "https://recipedia-davidpadilla.herokuapp.com/"
+  },
+  {
+    "projectTitle": "Gamelogger",
+    "projectDesc": "A backlog manager that allows users to manage their video game collection.",
+    "projectSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "NodeJS",
+      "MySQL"
+    ],
+    "projectImg": "Gamelogger",
+    "projectUrl": "https://gamelogger-app.herokuapp.com/"
+  },
+  {
+    "projectTitle": "CashScraper",
+    "projectDesc": "A web scraping application that rips finance-related articles from an external website using Cheerio.",
+    "projectSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "NodeJS",
+      "MongoDB"
+    ],
+    "projectImg": "CashScraper",
+    "projectUrl": "https://cashscraper.herokuapp.com/"
+  },
+  {
+    "projectTitle": "PokéMatch",
+    "projectDesc": "A compatibility-based application that determines which pokemon you are based on a series of questions.",
+    "projectSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "NodeJS"
+    ],
+    "projectImg": "PokéMatch",
+    "projectUrl": "https://pokematch-app.herokuapp.com/"
+  },
+  {
+    "projectTitle": "CineGrub",
+    "projectDesc": "CineGrub allows user to search for movies and restaurants nearby using their zip code as well as send invitations out.",
+    "projectSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Firebase"
+    ],
+    "projectImg": "CineGrub",
+    "projectUrl": "https://cinegrub.com/"
+  },
+  {
+    "projectTitle": "Schedulr",
+    "projectDesc": "A SaaS application that allows clients to manage appointments with customers and send out reminder texts via cell.",
+    "projectSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "NodeJS",
+      "MySQL"
+    ],
+    "projectImg": "Schedulr",
+    "projectUrl": "https://app-schedulr.herokuapp.com/"
+  },
+  {
+    "projectTitle": "Game of Thrones RPG",
+    "projectDesc": "A turn-based card game with character choice to battle for control of the Iron Throne by first defeating all adversaries.",
+    "projectSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery"
+    ],
+    "projectImg": "GameOfThronesRPG",
+    "projectUrl": "http://www.davidpadilla.io/GameOfThronesRPG/"
+  },
+  {
+    "projectTitle": "Classic Portfolio",
+    "projectDesc": "The classic version of a now redesigned portfolio, which originally showcased some of my personal favorite CSS tricks.",
+    "projectSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap"
+    ],
+    "projectImg": "ClassicPortfolio",
+    "projectUrl": "https://davidpadilla.io/"
+  },
+  {
+    "projectTitle": "Personal Portfolio",
+    "projectDesc": "A redesign of the original portfolio showcasing my technical skills, work history, and project highlights.",
+    "projectSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "MaterialUI"
+    ],
+    "projectImg": "PersonalPortfolio",
+    "projectUrl": "https://davidpadilla.io/"
+  },
+  {
+    "projectTitle": "Top Applicant",
+    "projectDesc": "A console application demonstrating how LinkedIn's Top Applicant algorithm on job postings works.",
+    "projectSkills": [
+      "CSharp",
+      "DotNetCore",
+      "xUnit"
+    ],
+    "projectImg": "TopApplicant",
+    "projectUrl": "https://github.com/dpadillajs/TopApplicant"
   }
 ]
