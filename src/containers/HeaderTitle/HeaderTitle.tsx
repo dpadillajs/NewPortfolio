@@ -14,7 +14,7 @@ export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo, colorTwo }) =
         spanStyle: {
             one: {
                 fontFamily: 'JetBrains Mono, monospace',
-                fontSize: 'min(max(4vw, 25px), 50px)',
+                fontSize: 'min(max(4vw, 27px), 50px)',
                 fontWeight: 200
             },
             two: {
@@ -28,7 +28,7 @@ export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo, colorTwo }) =
         <div style={styles().divStyle}>
             <span className="spanStyle" style={styles().spanStyle.one}>
                 <span>{titleOne}</span>
-                <span style={styles().spanStyle.two}>{titleTwo}( )</span>
+                <span style={styles().spanStyle.two}>{titleTwo}()</span>
             </span>
         </div>
     );
