@@ -11,6 +11,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import DescriptionIcon from '@material-ui/icons/Description';
 import PhoneEnabledIcon from '@material-ui/icons/PhoneEnabled';
 import EmailIcon from '@material-ui/icons/Email';
+import Resume from '../../assets/pdf/Resume.pdf';
 
 const useStyles = makeStyles(() =>
     createStyles({
@@ -30,7 +31,7 @@ export default function Navbar() {
     const classes = useStyles();
     const GitHubHref = "https://www.linkedin.com/in/davidmpadilla/";
     const LinkedInHref = "https://github.com/dpadillajs";
-    const ResumeHref = "../../assets/pdf/DP_FullStackResume.pdf";
+    const ResumeHref = Resume;
     const PhoneHref = "tel:919-869-9647";
     const EmailHref = "mailto:davidpadilla.dev@gmail.com?subject=Talent Acquisition"
 
