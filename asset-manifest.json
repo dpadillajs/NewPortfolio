@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7842054a.chunk.css",
-    "main.js": "/static/js/main.76e3fb84.chunk.js",
-    "main.js.map": "/static/js/main.76e3fb84.chunk.js.map",
+    "main.js": "/static/js/main.19b4ae1a.chunk.js",
+    "main.js.map": "/static/js/main.19b4ae1a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
     "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/static/css/2.ae9e5f60.chunk.css",
@@ -35,7 +35,7 @@
     "static/media/MongoDB.png": "/static/media/MongoDB.35c494c6.png",
     "static/media/MySQL.png": "/static/media/MySQL.4676ad98.png",
     "static/media/NodeJS.png": "/static/media/NodeJS.b8dbeb0a.png",
-    "static/media/PersonalPortfolio.png": "/static/media/PersonalPortfolio.3d12b209.png",
+    "static/media/PersonalPortfolio.png": "/static/media/PersonalPortfolio.d3b82806.png",
     "static/media/PokéMatch.png": "/static/media/PokéMatch.49462cc2.png",
     "static/media/PostgreSQL.jpg": "/static/media/PostgreSQL.5c2cc984.jpg",
     "static/media/React.png": "/static/media/React.eda9c325.png",
@@ -54,6 +54,6 @@
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.28e6ccfc.chunk.js",
     "static/css/main.7842054a.chunk.css",
-    "static/js/main.76e3fb84.chunk.js"
+    "static/js/main.19b4ae1a.chunk.js"
   ]
 }
