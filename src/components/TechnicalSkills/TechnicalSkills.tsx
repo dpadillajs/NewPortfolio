@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme: Theme) =>
     }),
 );
 
-export default function TechnicalSkillSet() {
+export default function TechnicalSkills() {
     const classes = useStyles();
     const importAll = (img: __WebpackModuleApi.RequireContext) => img.keys().map(img);
     const images = importAll(require.context('../../assets/images/skills', false, /\.(png|jpe?g|svg)$/));
@@ -32,7 +32,7 @@ export default function TechnicalSkillSet() {
     return (
         <React.Fragment>
             <Container maxWidth="md" className={classes.skillSetDiv}>
-                <HeaderTitle titleOne='technical' titleTwo='SkillSet' colorTwo="white"/>
+                <HeaderTitle titleOne='technical' titleTwo='Skills' colorTwo="white"/>
                 <Spacer divHeight={30}/>
                 <Grid container className={classes.grid}>
                 {images.map((img: any, i) =>

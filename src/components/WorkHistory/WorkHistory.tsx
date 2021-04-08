@@ -1,20 +1,18 @@
 import React from 'react';
 import './WorkHistory.css';
+import WorkHistoryData from '../../assets/json/work_data.json';
 import Timeline from '@material-ui/lab/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
 import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import WorkHistoryData from '../../assets/json/work_data.json';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUniversity } from '@fortawesome/free-solid-svg-icons';
-import { faPiggyBank } from '@fortawesome/free-solid-svg-icons';
-import { faPrescription } from '@fortawesome/free-solid-svg-icons';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import { HeaderTitle } from "../../containers/HeaderTitle/HeaderTitle";
 import { Spacer } from "../../containers/Spacer/Spacer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUniversity, faPiggyBank, faPrescription } from '@fortawesome/free-solid-svg-icons';
 
 export default function WorkHistory() {
     const data = WorkHistoryData;
@@ -34,7 +32,7 @@ export default function WorkHistory() {
                         <TimelineItem key={i}>
                             <TimelineSeparator>
                                 <TimelineDot className="timeline-dot" variant="outlined">
-                                    <FontAwesomeIcon className="timeline-font-icon" icon={icon}/>
+                                    <FontAwesomeIcon className="timeline-icon" icon={icon}/>
                                 </TimelineDot>
                                 {++i === data.length ? null : <TimelineConnector className="timeline-connector"/>}
                             </TimelineSeparator>

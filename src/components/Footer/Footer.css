@@ -1,0 +1,41 @@
+.footerDiv {
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #4f0e17, #a41d30);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    position: relative;
+    align-items: center;
+}
+
+.footerText {
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+    background: rgb(55, 55, 55);
+    padding: 3px 10px;
+}
+
+.footerSig {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 9px;
+    font-style: normal;
+    margin-bottom: 16px;
+}
+
+.footerAttr {
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

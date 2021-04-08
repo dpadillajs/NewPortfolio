@@ -13,12 +13,13 @@ export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo, colorTwo }) =
         },
         spanStyle: {
             one: {
-                fontSize: 35,
-                fontWeight: 'lighter' as 'lighter'
+                fontFamily: 'JetBrains Mono, monospace',
+                fontSize: 'min(max(4vw, 25px), 50px)',
+                fontWeight: 200
             },
             two: {
                 color: colorTwo ?? '#a41d30',
-                fontWeight: 900
+                fontWeight: 700
             }
         }
     })

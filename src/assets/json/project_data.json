@@ -11,17 +11,17 @@
     "projectUrl": "https://www.davidpadilla.io/CyberpunkHangman/"
   },
   {
-    "projectTitle": "Villianous",
+    "projectTitle": "Villainous",
     "projectDesc": "A memory-based puzzle shuffler where users must not press the same picture more than once or risk their score being reset.",
     "projectSkills": [
       "HTML5",
       "CSS3",
       "JavaScript",
       "React",
-      "MaterialUI"
+      "Material-UI"
     ],
-    "projectImg": "Villianous",
-    "projectUrl": "https://www.davidpadilla.io/Villianous/"
+    "projectImg": "Villainous",
+    "projectUrl": "https://www.davidpadilla.io/Villainous/"
   },
   {
     "projectTitle": "Recipedia",
@@ -31,7 +31,7 @@
       "CSS3",
       "JavaScript",
       "React",
-      "MaterialUI",
+      "Material-UI",
       "NodeJS",
       "MongoDB",
       "Firebase"
@@ -113,7 +113,7 @@
   },
   {
     "projectTitle": "Game of Thrones RPG",
-    "projectDesc": "A turn-based card game with character choice to battle for control of the Iron Throne by first defeating all adversaries.",
+    "projectDesc": "A turn-based card game with character choice to fight for control of the Iron Throne by defeating all adversaries.",
     "projectSkills": [
       "HTML5",
       "CSS3",
@@ -134,7 +134,7 @@
       "Bootstrap"
     ],
     "projectImg": "ClassicPortfolio",
-    "projectUrl": "https://davidpadilla.io/"
+    "projectUrl": "https://davidpadilla.io/ClassicPortfolio/"
   },
   {
     "projectTitle": "Personal Portfolio",
@@ -145,7 +145,7 @@
       "JavaScript",
       "TypeScript",
       "React",
-      "MaterialUI"
+      "Material-UI"
     ],
     "projectImg": "PersonalPortfolio",
     "projectUrl": "https://davidpadilla.io/"
@@ -159,6 +159,6 @@
       "xUnit"
     ],
     "projectImg": "TopApplicant",
-    "projectUrl": "https://github.com/dpadillajs/TopApplicant"
+    "projectUrl": "https://youtu.be/XA_OxrQ_EHg"
   }
 ]

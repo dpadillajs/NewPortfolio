@@ -9,9 +9,6 @@ import { HeaderTitle } from "../../containers/HeaderTitle/HeaderTitle";
 
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({
-        root: {
-            flexGrow: 1
-        },
         photoDiv: {
             display: 'flex',
             justifyContent: 'center',
@@ -32,21 +29,19 @@ export default function AboutMe() {
         <React.Fragment>
             <CssBaseline />
             <Container maxWidth="md">
-                <div className={classes.root}>
-                    <Grid container spacing={3}>
-                        <Grid item xs={12}>
-                            <HeaderTitle titleOne="about" titleTwo="Me"/>
-                        </Grid>
-                        <Container maxWidth="md">
-                            <Grid item xs={4} className={classes.photoDiv}>
-                                <AboutMePhoto/>
-                            </Grid>
-                            <Grid item xs={8} className={classes.descDiv}>
-                                <AboutMeDesc/>
-                            </Grid>
-                        </Container>
+                <Grid container spacing={3}>
+                    <Grid item xs={12}>
+                        <HeaderTitle titleOne="about" titleTwo="Me"/>
                     </Grid>
-                </div>
+                    <Container maxWidth="md">
+                        <Grid item xs={4} className={classes.photoDiv}>
+                            <AboutMePhoto/>
+                        </Grid>
+                        <Grid item xs={8} className={classes.descDiv}>
+                            <AboutMeDesc/>
+                        </Grid>
+                    </Container>
+                </Grid>
             </Container>
         </React.Fragment>
     );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
-import Photo from '../../assets/images/AboutMePhoto.jpg';
+import Photo from '../../assets/images/AboutMePhotoAlt.jpg';
 
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({

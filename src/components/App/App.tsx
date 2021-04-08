@@ -3,20 +3,19 @@ import './App.css';
 import { Spacer } from '../../containers/Spacer/Spacer';
 import Navbar from '../Navbar/Navbar';
 import AboutMe from '../AboutMe/AboutMe';
-import TechnicalSkillSet from "../TechnicalSkillSet/TechnicalSkillSet";
+import TechnicalSkills from "../TechnicalSkills/TechnicalSkills";
 import Overview from "../Overview/Overview";
 import WorkHistory from "../WorkHistory/WorkHistory";
 import ProjectHighlights from "../ProjectHighlights/ProjectHighlights";
 import Footer from "../Footer/Footer"
 
-const App : React.FC = () => {
-  return (
-    <div>
+const App : React.FC = () =>
+    <>
       <Navbar/>
       {/*Spacer*/}<Spacer divHeight={80}/>
       <AboutMe/>
       {/*Spacer*/}<Spacer divHeight={30}/>
-      <TechnicalSkillSet/>
+      <TechnicalSkills/>
       {/*Spacer*/}<Spacer divHeight={30}/>
       <Overview/>
       {/*Spacer*/}<Spacer divHeight={30}/>
@@ -25,8 +24,6 @@ const App : React.FC = () => {
       <ProjectHighlights/>
       {/*Spacer*/}<Spacer divHeight={30}/>
       <Footer/>
-    </div>
-  );
-}
+    </>
 
 export default App;

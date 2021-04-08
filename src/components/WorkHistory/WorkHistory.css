@@ -25,11 +25,19 @@
     border-color: #a41d30!important;
 }
 
-.timeline-font-icon {
+.timeline-dot:hover {
+    background: #a41d30;
+}
+
+.timeline-icon {
     width: 25px!important;
     height: 25px!important;
     padding: 2px;
     color: #a41d30;
+}
+
+.timeline-dot:hover .timeline-icon {
+    color: white;
 }
 
 .timeline-connector {
