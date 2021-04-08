@@ -11,7 +11,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import DescriptionIcon from '@material-ui/icons/Description';
 import PhoneEnabledIcon from '@material-ui/icons/PhoneEnabled';
 import EmailIcon from '@material-ui/icons/Email';
-import Resume from '../../assets/pdf/Resume.pdf';
+import Resume from '../../assets/pdf/DavidPadilla_FullStackResume.pdf';
 
 const useStyles = makeStyles(() =>
     createStyles({
