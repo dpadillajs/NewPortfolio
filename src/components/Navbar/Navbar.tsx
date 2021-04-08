@@ -29,8 +29,8 @@ const useStyles = makeStyles(() =>
 
 export default function Navbar() {
     const classes = useStyles();
-    const GitHubHref = "https://www.linkedin.com/in/davidmpadilla/";
-    const LinkedInHref = "https://github.com/dpadillajs";
+    const GitHubHref = "https://github.com/dpadillajs";
+    const LinkedInHref = "https://www.linkedin.com/in/davidmpadilla/";
     const ResumeHref = Resume;
     const PhoneHref = "tel:919-869-9647";
     const EmailHref = "mailto:davidpadilla.dev@gmail.com?subject=Talent Acquisition"
