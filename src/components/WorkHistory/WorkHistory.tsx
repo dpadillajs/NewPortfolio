@@ -25,7 +25,7 @@ export default function WorkHistory() {
         <>
             <HeaderTitle titleOne="work" titleTwo="History"/>
             <Spacer divHeight={10}/>
-            <Timeline align="alternate">
+            <Timeline align="alternate" className="timeline">
                 {data.map((x, i) => {
                     const icon = icons.get(x.iconName);
                     return (

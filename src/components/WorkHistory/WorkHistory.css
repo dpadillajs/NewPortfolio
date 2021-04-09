@@ -1,3 +1,7 @@
+.timeline {
+    align-items: center;
+}
+
 .timeline-paper {
     padding: 6px 16px;
     background: #e7e7e7!important;

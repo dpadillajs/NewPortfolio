@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme: Theme) =>
             maxWidth: theme.spacing(22.5),
             maxHeight: theme.spacing(22.5),
             height: 'auto',
-            boxShadow: '0 0rem 2rem rgb(0 0 0 / 35%)'
+            boxShadow: '0 0rem 2rem rgb(0 0 0 / 35%)',
+            opacity: .9
         }
     }),
 );
