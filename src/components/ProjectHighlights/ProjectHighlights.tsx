@@ -13,6 +13,8 @@ import { Spacer } from "../../containers/Spacer/Spacer";
 import { HeaderTitle } from "../../containers/HeaderTitle/HeaderTitle";
 import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core/styles";
+import Dialog from "@material-ui/core/Dialog";
+import ReactPlayer from "react-player";
 
 const useStylesBootstrap = makeStyles(() => ({
     arrow: {
@@ -32,6 +34,13 @@ export default function ProjectHighlights() {
     const importAll = (img: __WebpackModuleApi.RequireContext) => img.keys().map(img);
     const allSkills = importAll(require.context('../../assets/images/skills', false, /\.(png|jpe?g|svg)$/));
     const allProjects = importAll(require.context('../../assets/images/projects', false, /\.(png|jpe?g|svg)$/));
+    const [open, setOpen] = React.useState(false);
+    const [youtubeUrl, setYouTubeUrl] = React.useState('');
+    const handleClose = () => setOpen(false);
+    const handleClickOpen = (url: string) => () => {
+        setYouTubeUrl(url);
+        setOpen(true);
+    }
 
     return (
         <React.Fragment>
@@ -41,7 +50,16 @@ export default function ProjectHighlights() {
                 <Grid container spacing={3}>
                     {data.map((proj, i) =>
                         <Grid key={i+proj.projectImg} item className='proj-grid-item' xs={12} sm={6} md={4} lg={3}>
-                            <Link href={proj.projectUrl} target='_blank'>
+                            {proj.projectUrl.includes("youtu.be") ?
+                                <Dialog open={open} onClose={handleClose}>
+                                    <ReactPlayer width="560px" height="315px" controls={true} url={youtubeUrl}/>
+                                </Dialog>
+                                : null
+                            }
+                            <Link href={proj.projectUrl.includes("youtu.be") ? undefined : proj.projectUrl}
+                                  target='_blank'
+                                  onClick={proj.projectUrl.includes("youtu.be") ? handleClickOpen(proj.projectUrl) : handleClose}
+                            >
                                 <Card className='proj-card'>
                                     {allProjects.map((img: any) =>
                                         img.default.includes(proj.projectImg) ?
