@@ -55,19 +55,16 @@
     "projectUrl": "https://gamelogger-app.herokuapp.com/"
   },
   {
-    "projectTitle": "CashScraper",
-    "projectDesc": "A web scraping application that rips finance-related articles from an external website using Cheerio.",
+    "projectTitle": "Giffeine",
+    "projectDesc": "A search engine that allows users to search for and play short animated coffee gifs using the Giphy API.",
     "projectSkills": [
       "HTML5",
       "CSS3",
       "JavaScript",
-      "jQuery",
-      "Bootstrap",
-      "NodeJS",
-      "MongoDB"
+      "jQuery"
     ],
-    "projectImg": "CashScraper",
-    "projectUrl": "https://cashscraper.herokuapp.com/"
+    "projectImg": "Giffeine",
+    "projectUrl": "https://www.davidpadilla.io/Giffeine/"
   },
   {
     "projectTitle": "PokéMatch",
