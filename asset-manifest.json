@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2d06e432.chunk.css",
-    "main.js": "/static/js/main.b726c830.chunk.js",
-    "main.js.map": "/static/js/main.b726c830.chunk.js.map",
+    "main.js": "/static/js/main.2abb5632.chunk.js",
+    "main.js.map": "/static/js/main.2abb5632.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
     "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/static/css/2.ae9e5f60.chunk.css",
@@ -17,7 +17,6 @@
     "static/media/Bootstrap.png": "/static/media/Bootstrap.fe661697.png",
     "static/media/CSS3.png": "/static/media/CSS3.3fc43b24.png",
     "static/media/CSharp.png": "/static/media/CSharp.e7418d7e.png",
-    "static/media/CashScraper.png": "/static/media/CashScraper.ceba5355.png",
     "static/media/CineGrub.png": "/static/media/CineGrub.b7fad745.png",
     "static/media/ClassicPortfolio.png": "/static/media/ClassicPortfolio.da0b0f4c.png",
     "static/media/CyberpunkHangman.png": "/static/media/CyberpunkHangman.130bf195.png",
@@ -27,6 +26,7 @@
     "static/media/Freepik.7cb2c3db.png": "/static/media/Freepik.7cb2c3db.png",
     "static/media/GameOfThronesRPG.png": "/static/media/GameOfThronesRPG.b73ba3ed.png",
     "static/media/Gamelogger.png": "/static/media/Gamelogger.74d83bd5.png",
+    "static/media/Giffeine.png": "/static/media/Giffeine.b7165dd4.png",
     "static/media/Git.png": "/static/media/Git.2d8bf95c.png",
     "static/media/HTML5.png": "/static/media/HTML5.7e4779e1.png",
     "static/media/JavaScript.png": "/static/media/JavaScript.82ac4c8e.png",
@@ -54,6 +54,6 @@
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.df09dc00.chunk.js",
     "static/css/main.2d06e432.chunk.css",
-    "static/js/main.b726c830.chunk.js"
+    "static/js/main.2abb5632.chunk.js"
   ]
 }
