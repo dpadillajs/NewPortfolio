@@ -7,11 +7,25 @@ import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import AvatarGroup from "@material-ui/lab/AvatarGroup";
-import Tooltip from "@material-ui/core/Tooltip";
+import Tooltip, { TooltipProps } from "@material-ui/core/Tooltip";
 import Avatar from "@material-ui/core/Avatar";
 import { Spacer } from "../../containers/Spacer/Spacer";
 import { HeaderTitle } from "../../containers/HeaderTitle/HeaderTitle";
 import Link from "@material-ui/core/Link";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStylesBootstrap = makeStyles(() => ({
+    arrow: {
+        color: 'white',
+    },
+    tooltip: {
+        backgroundColor: 'white',
+        color: '#a41d30'
+    }
+}));
+
+const BootstrapTooltip = (props: TooltipProps) =>
+    <Tooltip arrow classes={useStylesBootstrap()} {...props} />;
 
 export default function ProjectHighlights() {
     const data = ProjectData;
@@ -37,7 +51,6 @@ export default function ProjectHighlights() {
                                                 key={proj.projectImg + ' Website Photo'}
                                                 alt={'Picture of Demo Project ' + proj.projectTitle}
                                                 image={img.default}
-                                                title={proj.projectTitle}
                                             />
                                             : null
                                     )}
@@ -46,9 +59,9 @@ export default function ProjectHighlights() {
                                         {allSkills.map((skill: any) =>
                                             proj.projectSkills.map(projSkill =>
                                                 skill.default.includes(projSkill) ?
-                                                    <Tooltip key={projSkill + i} title={projSkill} placement='top' arrow>
+                                                    <BootstrapTooltip key={projSkill + i} title={projSkill} placement='top' arrow>
                                                         <Avatar alt={projSkill + ' Logo'} src={skill.default}/>
-                                                    </Tooltip>
+                                                    </BootstrapTooltip>
                                                     : null
                                             )
                                         )}

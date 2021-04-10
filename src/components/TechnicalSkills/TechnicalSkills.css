@@ -1,0 +1,15 @@
+.technical-skills-container {
+    background: #801726;
+    min-width: 100%;
+    padding: 50px;
+}
+
+.technical-skills-grid {
+    justify-content: center;
+}
+
+.technical-skills-avatar {
+    width: 75px!important;
+    height: auto!important;
+    margin: 3px;
+}

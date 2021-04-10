@@ -1,47 +1,45 @@
 import React from 'react';
+import './TechnicalSkills.css';
 import Avatar from '@material-ui/core/Avatar';
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import { HeaderTitle } from "../../containers/HeaderTitle/HeaderTitle";
 import { Spacer } from "../../containers/Spacer/Spacer";
+import Tooltip, { TooltipProps } from "@material-ui/core/Tooltip";
 
-const useStyles = makeStyles((theme: Theme) =>
-    createStyles({
-        skillSetDiv: {
-            background: '#801726',
-            minWidth: '100%',
-            padding: 50
-        },
-        grid: {
-            justifyContent: 'center'
-        },
-        avatar: {
-            width: 75,
-            height: 'auto',
-            margin: 3
-        }
-    }),
-);
+const useStylesBootstrap = makeStyles(() => ({
+    arrow: {
+        color: 'white',
+    },
+    tooltip: {
+        backgroundColor: 'white',
+        color: '#a41d30'
+    }
+}));
+
+const BootstrapTooltip = (props: TooltipProps) =>
+    <Tooltip arrow classes={useStylesBootstrap()} {...props} />;
 
 export default function TechnicalSkills() {
-    const classes = useStyles();
     const importAll = (img: __WebpackModuleApi.RequireContext) => img.keys().map(img);
     const images = importAll(require.context('../../assets/images/skills', false, /\.(png|jpe?g|svg)$/));
+    const extractTitle = (imgPath: string) => ((imgPath.split("/static/media/"))[1].split("."))[0];
 
     return (
         <React.Fragment>
-            <Container maxWidth="md" className={classes.skillSetDiv}>
+            <Container maxWidth="md" className="technical-skills-container">
                 <HeaderTitle titleOne='technical' titleTwo='Skills' colorTwo="white"/>
                 <Spacer divHeight={30}/>
-                <Grid container className={classes.grid}>
+                <Grid container className="technical-skills-grid">
                 {images.map((img: any, i) =>
-                    <Avatar
-                        alt="Programming Language Picture"
-                        key={i}
-                        src={img.default}
-                        className={classes.avatar}
-                    />
+                    <BootstrapTooltip key={i} title={extractTitle(img.default)} placement='top' arrow>
+                        <Avatar
+                            alt={extractTitle(img.default) + " Icon"}
+                            src={img.default}
+                            className="technical-skills-avatar"
+                        />
+                    </BootstrapTooltip>
                 )}
                 </Grid>
             </Container>

@@ -7,9 +7,7 @@ import Container from "@material-ui/core/Container";
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye } from '@fortawesome/free-solid-svg-icons';
-import { faBookReader } from '@fortawesome/free-solid-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faBookReader, faDatabase } from '@fortawesome/free-solid-svg-icons';
 import OverviewData from '../../assets/json/overview_data.json';
 
 export default function Overview() {
