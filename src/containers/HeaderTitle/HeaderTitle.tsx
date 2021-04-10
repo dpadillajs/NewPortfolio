@@ -8,10 +8,10 @@ interface Props {
 
 export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo, colorTwo }) => {
     const styles = () => ({
-        divStyle: {
+        headerTitleDiv: {
             textAlign: 'center' as 'center'
         },
-        spanStyle: {
+        headerTitleSpan: {
             one: {
                 fontFamily: 'JetBrains Mono, monospace',
                 fontSize: 'min(max(4vw, 27px), 50px)',
@@ -25,10 +25,10 @@ export const HeaderTitle: React.FC<Props> = ({ titleOne, titleTwo, colorTwo }) =
     })
 
     return (
-        <div style={styles().divStyle}>
-            <span className="spanStyle" style={styles().spanStyle.one}>
+        <div style={styles().headerTitleDiv}>
+            <span style={styles().headerTitleSpan.one}>
                 <span>{titleOne}</span>
-                <span style={styles().spanStyle.two}>{titleTwo}()</span>
+                <span style={styles().headerTitleSpan.two}>{titleTwo}()</span>
             </span>
         </div>
     );

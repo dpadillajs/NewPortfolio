@@ -1,13 +1,36 @@
-.timeline {
+.work-history-timeline {
     align-items: center;
 }
 
-.timeline-paper {
+.work-history-timeline-dot {
+    border-color: #a41d30!important;
+}
+
+.work-history-timeline-dot:hover {
+    background: #a41d30;
+}
+
+.work-history-icon {
+    width: 25px!important;
+    height: 25px!important;
+    padding: 2px;
+    color: #a41d30;
+}
+
+.work-history-timeline-dot:hover .work-history-icon {
+    color: white;
+}
+
+.work-history-timeline-connector {
+    background-color: darkgrey;
+}
+
+.work-history-timeline-paper {
     padding: 6px 16px;
     background: #e7e7e7!important;
 }
 
-.year-employed {
+.work-history-year-employed {
     font-size: 20px!important;
     font-weight: bold!important;
     display: inline;
@@ -16,34 +39,11 @@
     border-radius: 5px;
 }
 
-.company-name {
+.work-history-company-name {
     font-size: 20px!important;
     font-weight: bold!important;
 }
 
-.job-title {
+.work-history-job-title {
     font-style: italic;
-}
-
-.timeline-dot {
-    border-color: #a41d30!important;
-}
-
-.timeline-dot:hover {
-    background: #a41d30;
-}
-
-.timeline-icon {
-    width: 25px!important;
-    height: 25px!important;
-    padding: 2px;
-    color: #a41d30;
-}
-
-.timeline-dot:hover .timeline-icon {
-    color: white;
-}
-
-.timeline-connector {
-    background-color: darkgrey;
 }

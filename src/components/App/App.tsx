@@ -4,10 +4,10 @@ import { Spacer } from '../../containers/Spacer/Spacer';
 import Navbar from '../Navbar/Navbar';
 import AboutMe from '../AboutMe/AboutMe';
 import TechnicalSkills from "../TechnicalSkills/TechnicalSkills";
-import Overview from "../Overview/Overview";
-import WorkHistory from "../WorkHistory/WorkHistory";
-import ProjectHighlights from "../ProjectHighlights/ProjectHighlights";
-import Footer from "../Footer/Footer"
+import Overview from '../Overview/Overview';
+import WorkHistory from '../WorkHistory/WorkHistory';
+import ProjectHighlights from '../ProjectHighlights/ProjectHighlights';
+import Footer from '../Footer/Footer'
 
 const App : React.FC = () =>
     <>

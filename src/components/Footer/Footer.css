@@ -1,4 +1,4 @@
-.footerDiv {
+.footer-div {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, #4f0e17, #a41d30);
     height: 150px;
@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.footerText {
+.footer-span {
     color: white;
     font-weight: 900;
     font-style: normal;
@@ -21,7 +21,7 @@
     padding: 3px 10px;
 }
 
-.footerSig {
+.footer-signature {
     position: absolute;
     left: 0;
     right: 0;
@@ -31,7 +31,7 @@
     margin-bottom: 16px;
 }
 
-.footerAttr {
+.footer-attribute {
     height: 40px;
     position: absolute;
     top: 10px;
