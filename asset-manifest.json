@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2c3d61bc.chunk.css",
-    "main.js": "/static/js/main.7adb50b1.chunk.js",
-    "main.js.map": "/static/js/main.7adb50b1.chunk.js.map",
+    "main.js": "/static/js/main.63bc8333.chunk.js",
+    "main.js.map": "/static/js/main.63bc8333.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
     "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/static/css/2.ae9e5f60.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/CineGrub.png": "/static/media/CineGrub.b7fad745.png",
     "static/media/ClassicPortfolio.png": "/static/media/ClassicPortfolio.da0b0f4c.png",
     "static/media/CyberpunkHangman.png": "/static/media/CyberpunkHangman.130bf195.png",
-    "static/media/DavidPadilla_FullStackResume.0e58f25a.pdf": "/static/media/DavidPadilla_FullStackResume.0e58f25a.pdf",
+    "static/media/DavidPadilla_FullStackResume.e704db0e.pdf": "/static/media/DavidPadilla_FullStackResume.e704db0e.pdf",
     "static/media/DotNetCore.png": "/static/media/DotNetCore.027fc627.png",
     "static/media/Firebase.png": "/static/media/Firebase.65559c8f.png",
     "static/media/Freepik.7cb2c3db.png": "/static/media/Freepik.7cb2c3db.png",
@@ -54,6 +54,6 @@
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.a9be081b.chunk.js",
     "static/css/main.2c3d61bc.chunk.css",
-    "static/js/main.7adb50b1.chunk.js"
+    "static/js/main.63bc8333.chunk.js"
   ]
 }
