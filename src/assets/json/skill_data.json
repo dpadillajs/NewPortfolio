@@ -1,0 +1,86 @@
+[
+  {
+    "skillName": "AngularJS",
+    "skillLevel": 30
+  },
+  {
+    "skillName": "Bootstrap",
+    "skillLevel": 85
+  },
+  {
+    "skillName": "CSharp",
+    "skillLevel": 60
+  },
+  {
+    "skillName": "CSS3",
+    "skillLevel": 100
+  },
+  {
+    "skillName": "DotNetCore",
+    "skillLevel": 60
+  },
+  {
+    "skillName": "Firebase",
+    "skillLevel": 40
+  },
+  {
+    "skillName": "Git",
+    "skillLevel": 80
+  },
+  {
+    "skillName": "HTML5",
+    "skillLevel": 100
+  },
+  {
+    "skillName": "JavaScript",
+    "skillLevel": 75
+  },
+  {
+    "skillName": "jQuery",
+    "skillLevel": 50
+  },
+  {
+    "skillName": "Material-UI",
+    "skillLevel": 85
+  },
+  {
+    "skillName": "MongoDB",
+    "skillLevel": 20
+  },
+  {
+    "skillName": "MSSQL",
+    "skillLevel": 70
+  },
+  {
+    "skillName": "MySQL",
+    "skillLevel": 50
+  },
+  {
+    "skillName": "NodeJS",
+    "skillLevel": 30
+  },
+  {
+    "skillName": "PostgreSQL",
+    "skillLevel": 50
+  },
+  {
+    "skillName": "React",
+    "skillLevel": 65
+  },
+  {
+    "skillName": "Redux",
+    "skillLevel": 15
+  },
+  {
+    "skillName": "TypeScript",
+    "skillLevel": 55
+  },
+  {
+    "skillName": "Vue",
+    "skillLevel": 55
+  },
+  {
+    "skillName": "xUnit",
+    "skillLevel": 70
+  }
+]
